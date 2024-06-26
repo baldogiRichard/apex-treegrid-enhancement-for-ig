@@ -5,6 +5,8 @@ Minimum requirement: Oracle Application Expresss 19.1
 
 This plug-in uses a modified version of the <a href="https://maxazan.github.io/jquery-treegrid/" rel="nofollow">Maxazan Treegrid</a> JQuery library.
 
+![image](https://github.com/baldogiRichard/apex-treegrid-enhancement-for-ig/assets/100072414/08d25948-f8a5-433d-b95b-0dff3d9116b9)
+
 # setup
 
 You can check each setup in my downloadable <a href="https://github.com/baldogiRichard/plug-in-site" rel="nofollow">Sample Application: APEX Plug-ins by Richard Baldogi</a>
