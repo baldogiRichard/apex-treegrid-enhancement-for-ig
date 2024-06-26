@@ -19,11 +19,13 @@ In order to initialize the plug-in correctly you will need to define two Dynamic
 Attributes:
 <br>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Table Selector:</li>
+  <li>Row Selector:</li>
+  <li>ID Column:</li>
+  <li>Parent ID Column:</li>
+  <li>Expand/Collapse:</li>
+  <li>Display on Column:</li>
+  <li>Level Column:</li>
 </ul>
 
 #
