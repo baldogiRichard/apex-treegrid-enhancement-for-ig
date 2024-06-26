@@ -11,7 +11,6 @@ You can check each setup in my downloadable <a href="https://github.com/baldogiR
 
 In order to initialize the plug-in correctly you will need to define two Dynamic Action events:
 <br>
-<br>
 <ul>
   <li>Page Load: </li>
   <li>Change: If the Interactive Grid changes in some way (e.g. Pagination, Filtering and so on....) then the tree must be reinitilazed in the same way as in the Page Load event.</li>
