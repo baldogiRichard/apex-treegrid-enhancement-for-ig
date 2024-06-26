@@ -7,6 +7,8 @@ This plug-in uses a modified version of the <a href="https://rstacruz.github.io/
 
 # setup
 
+You can check each setup in my downloadable <a href="https://github.com/baldogiRichard/plug-in-site" rel="nofollow">Sample Application: APEX Plug-ins by Richard Baldogi</a>
+
 #
 
 License MIT
