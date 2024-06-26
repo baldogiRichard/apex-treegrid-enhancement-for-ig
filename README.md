@@ -19,8 +19,8 @@ In order to initialize the plug-in correctly you will need to define two Dynamic
 Attributes:
 <br>
 <ul>
-  <li>Table Selector:</li>
-  <li>Row Selector:</li>
+  <li>Table Selector: A CSS class selector which determines which table must the treegrid initializer should operate on.</li>
+  <li>Row Selector: A CSS class selector which determines which rows must the treegrid initializer should draw the expand/collapse components and events.</li>
   <li>ID Column:</li>
   <li>Parent ID Column:</li>
   <li>Expand/Collapse:</li>
