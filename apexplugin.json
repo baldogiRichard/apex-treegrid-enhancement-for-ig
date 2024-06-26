@@ -23,12 +23,12 @@
    "oracle" : {
       "versions" : ["12.1.0.1","12.2.0.1","18.0.0.0","19.0.0.0","21.0.0.0"],
       "apex" : {
-        "versions" : ["19.1","19.2","20.1","20.2","21.1","21.2","22.1","22.2"],
+        "versions" : ["19.1","19.2","20.1","20.2","21.1","21.2","22.1","22.2","23.1","23.2","24.1"],
         "plugin" : {
           "internalName" : "COM.ENHANCEIGWITHTREEGRID.PLUGIN",
           "type" : "dynamic action",
           "demo" : "https://apex.oracle.com/pls/apex/r/rmzrt/apex-plugins-by-richard-baldogi/enhance-interactive-grid-with-treegrid",
-          "previewImage" : "https://raw.githubusercontent.com/baldogiRichard/apex-copy-excel-to-ig/main/exceltoig.gif"
+          "previewImage" : "https://raw.githubusercontent.com/baldogiRichard/apex-treegrid-enhancement-for-ig/main/enhanceigwtreegrid.gif"
         }
       }
     }
