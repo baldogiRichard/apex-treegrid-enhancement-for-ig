@@ -27,7 +27,7 @@
         "plugin" : {
           "internalName" : "COM.ENHANCEIGWITHTREEGRID.PLUGIN",
           "type" : "dynamic action",
-          "demo" : "https://apex.oracle.com/pls/apex/r/rmzrt/apex-plugins-by-richard-baldogi/copy-excel-to-interactive-grid",
+          "demo" : "https://apex.oracle.com/pls/apex/r/rmzrt/apex-plugins-by-richard-baldogi/enhance-interactive-grid-with-treegrid",
           "previewImage" : "https://raw.githubusercontent.com/baldogiRichard/apex-copy-excel-to-ig/main/exceltoig.gif"
         }
       }
