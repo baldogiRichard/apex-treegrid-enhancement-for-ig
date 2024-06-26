@@ -27,6 +27,14 @@ Attributes:
   <li>Display on Column: On which column should be the treegrid displayed.</li>
   <li>Level Column: The depth of the given record. The higher the number the more the given cell will be tabulated.</li>
 </ul>
+Other notes:
+<br>
+<br>
+<p>Affected Elements: The affected Interactive Grid must be chosen otherwise the plug-in will throw an error.</p>
+
+![image](https://github.com/baldogiRichard/apex-treegrid-enhancement-for-ig/assets/100072414/4d62480c-787d-4aaf-a135-8fbd3afbd2e5)
+
+![image](https://github.com/baldogiRichard/apex-treegrid-enhancement-for-ig/assets/100072414/7fe192bb-5fa4-45d5-bc35-74ef5d98f199)
 
 #
 
