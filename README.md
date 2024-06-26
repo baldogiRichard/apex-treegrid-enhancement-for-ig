@@ -3,7 +3,7 @@ This repository contains the files for the APEX Interactive Grid Treegrid Enhanc
 
 Minimum requirement: Oracle Application Expresss 19.1
 
-This plug-in uses a modified version of the <a href="https://rstacruz.github.io/nprogress/](https://maxazan.github.io/jquery-treegrid/" rel="nofollow">Maxazan Treegrid</a> JQuery library.
+This plug-in uses a modified version of the <a href="https://maxazan.github.io/jquery-treegrid/" rel="nofollow">Maxazan Treegrid</a> JQuery library.
 
 # setup
 
