@@ -1,0 +1,35 @@
+{
+    "name" : "Enhance Interactive Grid with Treegrid",
+    "version" : "1.0",
+    "description" : "This happy little plug-in renders a treegrid to the Interactive Grid to beat the devil out of the report.",
+    "keywords" : ["tree","treegrid","dynamic action","plugin","interactive grid","IG"],
+    "homepage" : "https://github.com/baldogiRichard/apex-treegrid-enhancement-for-ig",
+    "bugs" : {
+      "url" : "https://github.com/baldogiRichard/apex-treegrid-enhancement-for-ig/issues",
+      "email" : "baldogi.richard@gmail.com"
+    },
+    "license" : "MIT",
+    "commercial" : "No",
+    "author" : {
+      "name" : "Richard Baldogi",
+      "email" : "baldogi.richard@gmail.com",
+      "url" : "https://www.linkedin.com/in/rb-627543146",
+      "twitter": "@O_APEX_Hungary"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/baldogiRichard/apex-treegrid-enhancement-for-ig.git"
+    },
+   "oracle" : {
+      "versions" : ["12.1.0.1","12.2.0.1","18.0.0.0","19.0.0.0","21.0.0.0"],
+      "apex" : {
+        "versions" : ["19.1","19.2","20.1","20.2","21.1","21.2","22.1","22.2"],
+        "plugin" : {
+          "internalName" : "COM.ENHANCEIGWITHTREEGRID.PLUGIN",
+          "type" : "dynamic action",
+          "demo" : "https://apex.oracle.com/pls/apex/r/rmzrt/apex-plugins-by-richard-baldogi/copy-excel-to-interactive-grid",
+          "previewImage" : "https://raw.githubusercontent.com/baldogiRichard/apex-copy-excel-to-ig/main/exceltoig.gif"
+        }
+      }
+    }
+  }
