@@ -38,6 +38,13 @@ Other notes:
 
 ![image](https://github.com/baldogiRichard/apex-treegrid-enhancement-for-ig/assets/100072414/7fe192bb-5fa4-45d5-bc35-74ef5d98f199)
 
+TODOs:
+
+<ul>
+  <li>Icon column: For every row an icon column could be used to display leaf and root nodes with unique icons, so the report would give a visually better lookout for the user.</li>
+  <li>Icon color column: Color for the icon like u-color-1.</li>
+</ul>
+
 #
 
 License MIT
