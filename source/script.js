@@ -10,7 +10,7 @@ ENHANCEIGWITHTREEGRID.main = function(config,init) {
     var $widget       = apex.region(config.regionID).widget(),
         $grid         = $widget.interactiveGrid('getViews').grid,
         $model        = $grid.model,
-        totalRecords  = $model.getTotalRecords(true);
+        totalRecords  = $model._data.length;
 
 
     var cols          = $grid.view$.grid("getColumns"),
