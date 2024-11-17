@@ -34,7 +34,7 @@ ENHANCEIGWITHTREEGRID.main = function(config,init) {
         recParentId = $model.getValue(record,config.parentIdColumn);
         recJq       = config.rowSelector + dataRownum.replace('#ROW_ID#',recId);
         recDepth    = $model.getValue(record,config.depthLevel) - 1;
-        $recJq      = $(recJq);
+        $recJq      = $('#' + config.regionID).find(recJq);
 
         //If record exists in the DOM
         if ($recJq.length) {
