@@ -44,8 +44,6 @@ ENHANCEIGWITHTREEGRID.main = function(config,init) {
             $recJq.addClass('apex-treegrid-' + recId);
             $recJq.addClass('apex-treegrid-' + config.initialState);
 
-            console.log($(".apex-treegrid-" + recParentId));
-
             if(recParentId && $regionDOM.find(".apex-treegrid-" + recParentId).length > 0) {
                 $recJq.addClass('apex-treegrid-parent-' + recParentId);
             };
