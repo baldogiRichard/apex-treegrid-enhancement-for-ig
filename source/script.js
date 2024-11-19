@@ -6,12 +6,11 @@ ENHANCEIGWITHTREEGRID.main = function(config,init) {
 
     //Initialize variables
     const dataRownum  = "[data-id=#ROW_ID#]";
-    
+
     var $widget       = apex.region(config.regionID).widget(),
         $grid         = $widget.interactiveGrid('getViews').grid,
         $model        = $grid.model,
         totalRecords  = $model._data.length;
-
 
     var cols          = $grid.view$.grid("getColumns"),
         treeColumnIdx = cols.filter(item => item.property === config.treeColumn),
@@ -29,12 +28,14 @@ ENHANCEIGWITHTREEGRID.main = function(config,init) {
 
     //Adding treegrid CSS classes to the rows
     for(i = 0;i < totalRecords; i++) { 
+
         record      = $model.recordAt(i);
         recId       = $model.getValue(record,config.idColumn);
         recParentId = $model.getValue(record,config.parentIdColumn);
         recJq       = config.rowSelector + dataRownum.replace('#ROW_ID#',recId);
         recDepth    = $model.getValue(record,config.depthLevel) - 1;
-        $recJq      = $('#' + config.regionID).find(recJq);
+        $regionDOM  = $('#' + config.regionID)
+        $recJq      = $regionDOM.find(recJq);
 
         //If record exists in the DOM
         if ($recJq.length) {
@@ -43,7 +44,9 @@ ENHANCEIGWITHTREEGRID.main = function(config,init) {
             $recJq.addClass('apex-treegrid-' + recId);
             $recJq.addClass('apex-treegrid-' + config.initialState);
 
-            if(recParentId) {
+            console.log($(".apex-treegrid-" + recParentId));
+
+            if(recParentId && $regionDOM.find(".apex-treegrid-" + recParentId).length > 0) {
                 $recJq.addClass('apex-treegrid-parent-' + recParentId);
             };
 
