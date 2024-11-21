@@ -5,7 +5,7 @@ window.ENHANCEIGWITHTREEGRID = window.ENHANCEIGWITHTREEGRID || {};
 ENHANCEIGWITHTREEGRID.main = function(config,init) { 
 
     //Initialize variables
-    const dataRownum  = "[data-id=#ROW_ID#]";
+    const dataRownum  = "[data-id*=#ROW_ID#]";
 
     var $widget       = apex.region(config.regionID).widget(),
         $grid         = $widget.interactiveGrid('getViews').grid,
