@@ -35,7 +35,11 @@ ENHANCEIGWITHTREEGRID.main = function(config,init) {
         recJq       = config.rowSelector + dataRownum.replace('#ROW_ID#',recId);
         recDepth    = $model.getValue(record,config.depthLevel) - 1;
         $regionDOM  = $('#' + config.regionID)
-        $recJq      = $regionDOM.find(recJq);
+        $recJq      = $regionDOM.find(config.rowSelector).filter(function() {
+                                            const regexp = new RegExp('(^|\\W)' + recId +'($|\\W)','i')
+                                            const value = $(this).attr('data-id');
+                                            return regexp.test(value);
+                                        });
 
         //If record exists in the DOM
         if ($recJq.length) {
